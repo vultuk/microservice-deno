@@ -3,7 +3,7 @@ import {SetupResults} from '../Types/SetupResults.ts';
 export const Serve = (setup: SetupResults): SetupResults => {
   const { settings, app } = setup;
 
-  app.listen(settings.port, () => {
+  app.listen(settings.port || 3000, () => {
     app._router.stack
       .filter((r: any) => r.route)
       .forEach((r: any) => {

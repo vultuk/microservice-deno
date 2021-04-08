@@ -1,6 +1,8 @@
+export { flow } from 'http://deno.land/x/lodash@4.17.11-es/lodash.js';
+
 export { opine } from 'https://deno.land/x/opine/mod.ts';
 
-export {
+export type {
   Application,
   Request,
   Response,
@@ -8,5 +10,3 @@ export {
 } from 'https://deno.land/x/opine/src/types.ts';
 
 export { json } from 'https://deno.land/x/opine/src/middleware/bodyParser/json.ts';
-
-export { pipe } from 'https://deno.land/x/lodash@4.17.19/dist/lodash.fp.js';
