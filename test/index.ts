@@ -1,12 +1,12 @@
 import {
   Microservice,
-} from 'https://raw.githubusercontent.com/vultuk/microservice-deno/9ba20bcd35d69896f50ba5f82a5a6fb673f54fab/http/microservice.ts';
+} from 'https://raw.githubusercontent.com/vultuk/microservice-deno/6330de113120d8f73b2f769ca99fbf78e7052597/http/microservice.ts';
 
 Microservice({ port: 8080 })([])([
   {
     method: 'get',
     path: '/test',
-    fn: async (req, res) => {
+    fn: async (req: any, res: any) => {
       res.json({ success: true }).end();
     },
   },
