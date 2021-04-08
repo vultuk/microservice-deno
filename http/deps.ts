@@ -1,4 +1,4 @@
-export { flow } from 'http://deno.land/x/lodash@4.17.11-es/lodash.js';
+export { flow } from 'https://deno.land/x/lodash@4.17.11-es/lodash.js';
 
 export { opine } from 'https://deno.land/x/opine/mod.ts';
 
