@@ -1,4 +1,4 @@
-import {Request, Response, Route} from './deps.ts';
+import {Request, Response, Route} from './Deps.ts';
 
 export const Routes: Route[] = [
   {
