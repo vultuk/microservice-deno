@@ -1,5 +1,5 @@
-import {json} from '../deps.ts';
-import {SetupResults} from '../Types/SetupResults.ts';
+import {json} from '../Deps.ts';
+import {SetupResults} from '../Types.ts';
 
 export const Middleware = (middleware?: any[]) => (
   setup: SetupResults

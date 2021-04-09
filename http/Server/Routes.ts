@@ -1,6 +1,5 @@
 import AsyncMethod from '../Shared/AsyncMethod.ts';
-import {Route} from '../Types/Route.ts';
-import {SetupResults} from '../Types/SetupResults.ts';
+import {Route, SetupResults} from '../Types.ts';
 
 export const Routes = (routes: Route[]) => (
   setup: SetupResults

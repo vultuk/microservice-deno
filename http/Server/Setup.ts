@@ -1,6 +1,5 @@
-import {Application, opine} from '../deps.ts';
-import {Settings} from '../Types/Settings.ts';
-import {SetupResults} from '../Types/SetupResults.ts';
+import {opine} from '../Deps.ts';
+import {Application, Settings, SetupResults} from '../Types.ts';
 
 export const Setup = (settings: Settings) => (): SetupResults => {
   const app: Application = opine();

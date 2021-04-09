@@ -1,5 +1,5 @@
-import {NextFunction, Request, Response} from '../deps.ts';
-import {SetupResults} from '../Types/SetupResults.ts';
+import {NextFunction, Request, Response} from '../Deps.ts';
+import {SetupResults} from '../Types.ts';
 
 export const ErrorHandling = (setup: SetupResults): SetupResults => {
   const { settings, app } = setup;

@@ -1,4 +1,4 @@
-import {NextFunction, Request, Response} from '../deps.ts';
+import {NextFunction, Request, Response} from '../Types.ts';
 
 export default (
   callback: (req: Request, res: Response, next: NextFunction) => Promise<void>

@@ -1,4 +1,3 @@
-import {Application} from '../deps.ts';
-import {Settings} from './Settings.ts';
+import {Application, Settings} from '../Types.ts';
 
 export type SetupResults = { settings: Settings; app: Application };

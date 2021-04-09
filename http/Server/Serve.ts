@@ -1,4 +1,4 @@
-import {SetupResults} from '../Types/SetupResults.ts';
+import {SetupResults} from '../Types.ts';
 
 export const Serve = (setup: SetupResults): SetupResults => {
   const { settings, app } = setup;

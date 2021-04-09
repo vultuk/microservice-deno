@@ -1,4 +1,4 @@
-import {NextFunction, Request, Response} from '../deps.ts';
+import {NextFunction, Request, Response} from '../Types.ts';
 
 export type Route = {
   method: 'get' | 'put' | 'post' | 'patch' | 'delete' | 'options';
