@@ -7,6 +7,10 @@ import {Setup} from './Server/Setup.ts';
 import {Route} from './Types/Route.ts';
 import {Settings} from './Types/Settings.ts';
 
+export { Cors } from './deps.ts';
+export type { Request, Response } from './deps.ts';
+export type { Route } from './Types/Route.ts';
+
 export const Microservice = (settings?: Settings) => (
   middleware?: unknown[]
 ) => (routes: Route[]) =>
